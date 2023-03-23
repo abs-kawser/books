@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+#book_sec{
+ /* margin-left: 20px; */
+}
+
+.container {
+    width: 1400px;
+    border: var(--border);
+    box-sizing: border-box;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.book_container {
+    width: 569px;
+    border: 1px solid green;
+
+}
+
+.book_container_text {
+    text-align: center;
+}
+
+.book_container_text h1 {
+    font-weight: 700px;
+    font-size: 60px;
+    color: #1B3764;
+}
+
+.yello_backGround {
+    /* background: #FFCA42; */
+    /* background-size: 50%; */
+    box-shadow: inset 0px -35px 0px 0px #FFCA42;
+    margin-bottom: 5px;
+}
+
+.book_container_text h4 {
+    font-style: italic;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #1B3764;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+
+}
+
+.divider_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.divider_line {
+    width: 38.24px;
+    height: 0px;
+    border: 2px solid #1B3764;
+
+}
+
+/* lamp_part */
+
+.lamp_parent {
+    border: 1px solid rgb(124, 184, 192);
+    display: flex;
+    border: 1px solid black;
+    /* padding: 60px; */
+}
+
+.lamp_parent .left {
+    border: 1px solid black;
+
+}
+
+.lamp_parent .left .lamp_image {
+    width: 344px;
+    height: 328px;
+}
+
+.lamp_parent .left .lamp_image img {
+    max-width: 100%;
+
+}
+
+.lamp_parent .right {
+    border: 1px solid black;
+    /* position: relative; */
+
+}
+
+.lamp_parent .right .lamp_part_circle {
+    text-align: center;
+    width: 163px;
+    height: 163px;
+    background: yellow;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: #FFCA42;
+    border-style: solid;
+    padding: 27px 10px;
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+
+    /* position: absolute;
+    top: -19px;
+    left: 357px; */
+}
+
+.lamp_parent .right .lamp_part_circle .circle_text {
+
+    justify-content: center;
+    border: 1px solid;
+}
+
+.lamp_parent .right .lamp_part_circle .circle_text h5 {
+    font-family: 'Cardo', serif;
+    color: #1B3764;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.lamp_parent .right .lamp_part_circle .circle_text p {
+    margin: 0;
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #1B3764;
+    margin-top: 4px;
+    line-height: 21px;
+    font-size: 14px;
+
+
+}
+
+.lamp_parent .right .lamp_text {
+    width: 174px;
+    border: 1px solid;
+    position: absolute;
+    /* left: 119px;
+    bottom: 5px; */
+}
+
+.lamp_parent .right .lamp_text h4 {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #1B3764;
+
+
+}
